@@ -1,4 +1,4 @@
-console.log("Hello World!! This is an example package");
+console.log("Heello World!! This is an example package");
 
 
 aws_access_key_id = 
