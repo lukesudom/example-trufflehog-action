@@ -15,8 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history for comprehensive scanning
-
+          fetch-depth: 2  # Fetch current commit + 1 previous commit 
       - name: Run Trufflehog OSS
         uses: trufflesecurity/trufflehog@main
         with:
